@@ -1,9 +1,12 @@
-# ListingLift Deliverable — SAMPLE
-**SKU:** ListingLift Single ($39)  
+# ListingLift Deliverable — SAMPLE (historical)
+
+**ARCHIVED EXPERIMENT — closed 2026-10-02.** ListingLift is not for sale. This file is a preserved sample, not an offer and not a checkout.
+
+**SKU (historical record only):** ListingLift Single ($39) — not offered  
 **Shop (public research sample):** GramCeramics — https://www.etsy.com/shop/GramCeramics  
 **Source listing title (public, retrieved 2026-09-29):**  
 `14 oz / 22 oz Handmade Pottery Mug, Large Coffee Mug, Ceramic Beer Mug, Red Stoneware Mug with Handle, Gift for Him Mug, Christmas Gift`  
-**Status:** SAMPLE for Glen review / landing demo — **not** sent to this shop. No contact made.
+**Status:** Historical sample kept in the archive. **Not** sent to this shop. No contact made.
 
 ---
 
@@ -137,7 +140,7 @@ Deliverable is **accepted** when buyer receives this document with:
 4. Attribute checklist  
 5. Before/after scorecard  
 
-**Not included:** photo editing, ad management, rank guarantees, eRank login work, multi-listing batch (see 3-Pack if offered later).
+**Not included:** photo editing, ad management, rank guarantees, eRank login work, multi-listing batch.
 
 ---
 
