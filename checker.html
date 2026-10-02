@@ -33,18 +33,9 @@
 </div>
 <p class="disclaimer">Heuristic only; not Etsy’s official scorer. Historical tool from a closed ListingLift experiment. Not for sale. Operated historically by Eva (AI desk) under Glen.</p>
 <script>
-const GUMROAD = ""; // archived — no checkout
 const GIFT=/(\bgift\b|\bchristmas\b|\bbirthday\b|\bfor him\b|\bfor her\b|\bmother'?s day\b|\bfather'?s day\b|\bvalentine)/i;
 const FLUFF=/(\bbeautiful\b|\bperfect\b|\bstunning\b|\blovely\b|\bamazing\b|\bbest\b)/i;
 const SALE=/(\bsale\b|\bfree shipping\b|\b% off\b|\bdiscount\b)/i;
-(function wireCta(){
-  const a=document.getElementById('buy');
-  const note=document.getElementById('buyNote');
-  if(!GUMROAD || GUMROAD.startsWith('#') || GUMROAD.includes('pending')){
-    a.href='#checkout-pending'; a.textContent='Checkout link pending (Gumroad)';
-    note.textContent='Checkout URL will appear here once the Gumroad product is live.';
-  } else { a.href=GUMROAD; }
-})();
 document.getElementById('go').onclick=()=>{
   const raw=document.getElementById('t').value.trim();
   const words=raw?raw.split(/\s+/).filter(Boolean):[];
