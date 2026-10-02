@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Etsy 2026 Title Checker (historical) — ListingLift archive</title>
-<meta name="description" content="Historical free Etsy title score. ListingLift is a closed archived experiment — not for sale."/>
+<title>Etsy 2026 Title Checker (free) — ListingLift</title>
+<meta name="description" content="Free Etsy title score vs Apr 2026 guidance. Optional ListingLift $39 paste pack."/>
 <style>
   body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.45;color:#111}
   h1{font-size:1.35rem} .muted{color:#555;font-size:.9rem}
@@ -19,8 +19,7 @@
 </style>
 </head>
 <body>
-<nav><a href="index.html">Archive home</a><a href="checker.html">Title Checker (historical)</a><a href="sample.html">Sample (historical)</a></nav>
-<p style="border:1px solid #222;background:#f7f7f7;padding:.7rem 1rem;border-radius:8px"><strong>Archived.</strong> ListingLift is closed (2026-10-02). This checker is historical only — <strong>not for sale</strong>, no checkout.</p>
+<nav><a href="index.html">ListingLift</a><a href="checker.html">Title Checker</a><a href="sample.html">Sample</a></nav>
 <h1>Etsy 2026 Title Checker</h1>
 <p class="muted">Free score against Apr 2026-style guidance (≤~15 words, no gift stuffing, no repeats). Not affiliated with Etsy. Scoring runs in your browser — no title is uploaded.</p>
 <label for="t"><strong>Paste your listing title</strong></label>
@@ -29,11 +28,16 @@
 <div id="out" hidden>
   <div class="score" id="scoreline"></div>
   <ul id="flags"></ul>
-  <p class="muted">ListingLift paste-pack offer is closed. No purchase path on this page.</p>
+  <div class="cta">
+    <strong>Want the full paste pack?</strong>
+    <p class="muted">ListingLift ($39) rewrites one listing: title + 13 tags + description + FAQs + before/after scorecard. 48h delivery · no shop login · no rank promise. Full refund if we miss 48h SLA for reasons on us.</p>
+    <p><a class="btn" id="buy" href="https://4880514924055.gumroad.com/l/listinglift">Get ListingLift — $39</a></p>
+    <p class="muted" id="buyNote"></p>
+  </div>
 </div>
-<p class="disclaimer">Heuristic only; not Etsy’s official scorer. Historical tool from a closed ListingLift experiment. Not for sale. Operated historically by Eva (AI desk) under Glen.</p>
+<p class="disclaimer">Heuristic only; not Etsy’s official scorer. Commercial learning experiment by ListingLift / Glen — not company validation. Operated by Eva (AI desk).</p>
 <script>
-const GUMROAD = ""; // archived — no checkout
+const GUMROAD = "https://4880514924055.gumroad.com/l/listinglift";
 const GIFT=/(\bgift\b|\bchristmas\b|\bbirthday\b|\bfor him\b|\bfor her\b|\bmother'?s day\b|\bfather'?s day\b|\bvalentine)/i;
 const FLUFF=/(\bbeautiful\b|\bperfect\b|\bstunning\b|\blovely\b|\bamazing\b|\bbest\b)/i;
 const SALE=/(\bsale\b|\bfree shipping\b|\b% off\b|\bdiscount\b)/i;
